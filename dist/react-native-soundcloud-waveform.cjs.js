@@ -95,7 +95,8 @@ function Waveform(_ref) {
       key: i,
       onPress: function onPress() {
         setTime(i);
-      }
+      },
+	activeOpacity: 1
     }, React__default.createElement(reactNative.View, {
       style: {
         backgroundColor: getColor(chunks, i, percentPlayed, percentPlayable, inverse, active, activeInverse, activePlayable, activePlayableInverse, inactive, inactiveInverse),
