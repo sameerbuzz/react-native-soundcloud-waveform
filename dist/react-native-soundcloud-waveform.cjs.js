@@ -75,7 +75,7 @@ function Waveform(_ref) {
       inactiveInverse = _ref.inactiveInverse;
   var scaleLinearHeight = d3Scale.scaleLinear().domain([0, waveform.height]).range([0, height]);
 
-  var chunks = _.chunk(waveform.samples, waveform.width / ((width - 60) / 5));
+  var chunks = _.chunk(waveform.samples, waveform.width / ((width - 60) / 3));
 
   return React__default.createElement(reactNative.View, {
     style: [{
